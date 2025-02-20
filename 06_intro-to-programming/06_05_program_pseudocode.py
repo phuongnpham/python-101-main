@@ -6,3 +6,12 @@
 # You can also add real Python code after learning the necessary concepts.
 # For now, just practice breaking larger tasks into smaller steps
 # and writing out your thoughts in pseudocode.
+
+# Connect to an echo device and do factory reset
+# Confirm if the device is unlocked
+# Confirm if the device is connected
+# Go to settings
+# Go to devices option
+# Got to factory reset
+# Click on factory reset
+# Confirm to do factory reset

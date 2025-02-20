@@ -4,5 +4,5 @@
 flag = False
 while flag:
     # keep doing what you're doing
-
+    pass
 print("all done.")

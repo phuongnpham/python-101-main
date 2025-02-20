@@ -2,3 +2,6 @@
 # and implement the instructions below:
 #
 # Pass the value 100 as an argument to the print() function.
+
+value = 100
+print(value)
