@@ -2,8 +2,8 @@
 # However, the variable names aren't great and don't follow the guidelines.
 # Improve the variable names so they follow the PEP-8 guidelines.
 
-Name = "Ada"
+firstName = "Ada"
 lastName = "Lovelace"
-FULLNAME = Name + " " + lastName
+fullName = firstName + " " + lastName
 
-print(FULLNAME)
+print(fullName)
