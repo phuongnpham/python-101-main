@@ -7,7 +7,9 @@
 
 hunger = 2
 
-if hunger == "big":
+if type(hunger) is not str:
+    print("Please declare your hunger levels with a string")
+elif hunger == "big":
     print("Eat the pizza")
 elif hunger == "small":
     print("Eat the apple")
