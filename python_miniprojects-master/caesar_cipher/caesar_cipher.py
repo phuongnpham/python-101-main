@@ -8,7 +8,8 @@ encrypted_secret = ""
 
 for char in secret_lowercase:
     if char in lowercase_letters:
-        encrypted_secret += lowercase_letters[(lowercase_letters.index(char) + cipher) % 26]
+        index = (lowercase_letters.index(char) + cipher) % 26
+        encrypted_secret += lowercase_letters[index]
     else:
         encrypted_secret += char
 
