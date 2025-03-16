@@ -6,5 +6,9 @@ import pathlib
 
 path = pathlib.Path.cwd()
 
-for python_file in path.rglob("*.py"):
-    print(f"{python_file.parent.name}/{python_file.name}")
+for level_1 in path.iterdir():
+    if level_1.is_dir():
+        for level_2 in level_1.iterdir():
+            if level_2.is_file:
+                if level_2.suffix == '.py':
+                    print(f"{level_2.parent.name}/{level_2.name}")
